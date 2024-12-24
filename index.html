@@ -1,136 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 1.8rem;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 1.5rem;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .hero {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            color: #666;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        .project {
-            background: #fff;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .project img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .project h3 {
-            font-size: 1.5rem;
-            margin-top: 1rem;
-        }
-        .project p {
-            color: #666;
-            font-size: 1rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: #fff;
-            margin-top: 3rem;
-        }
-        footer a {
-            color: #4caf50;
-            text-decoration: none;
-        }
-    </style>
+    <title>Portfolio - Your Name</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 </head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section class="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Explore my work, skills, and projects that I have been working on.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>Description of the project goes here. It highlights the key features and technologies used.</p>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <img src="images/your-photo.jpg" alt="Your Name" />
             </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>Description of the project goes here. It highlights the key features and technologies used.</p>
+            <div class="content">
+                <div class="inner">
+                    <h1>Your Name</h1>
+                    <p>Professional Title &nbsp;&bull;&nbsp; Your Location</p>
+                </div>
             </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/300" alt="Project 3">
-                <h3>Project Title 3</h3>
-                <p>Description of the project goes here. It highlights the key features and technologies used.</p>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- About Section -->
+            <article id="intro">
+                <h2 class="major">About Me</h2>
+                <span class="image main"><img src="images/about.jpg" alt="About Me" /></span>
+                <p>Welcome! My name is Your Name, and I am passionate about [Your Passion or Field]. I have experience in [Your Expertise or Field] and enjoy [Your Interests]. This portfolio highlights my work, skills, and accomplishments. Feel free to explore and connect with me!</p>
+            </article>
+
+            <!-- Skills Section -->
+            <article id="skills">
+                <h2 class="major">Skills</h2>
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+
+                <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                <ul class="skills-list">
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Git</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+                <h3><i class="fas fa-paint-brush"></i> Design</h3>
+                <ul class="skills-list">
+                    <li>Adobe Photoshop</li>
+                    <li>Figma</li>
+                    <li>Canva</li>
+                </ul>
+            </article>
+
+            <!-- Projects Section -->
+            <article id="work">
+                <h2 class="major">Projects</h2>
+                <div class="project">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of the project, its purpose, and your role.</p>
+                    <ul>
+                        <li>Key Feature or Accomplishment</li>
+                        <li>Technology Used</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                </div>
+
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of the project, its purpose, and your role.</p>
+                    <ul>
+                        <li>Key Feature or Accomplishment</li>
+                        <li>Technology Used</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                </div>
+            </article>
+
+            <!-- Contact Section -->
+            <article id="contact">
+                <h2 class="major">Contact</h2>
+                <p>If you would like to get in touch, feel free to reach out through any of the platforms below.</p>
+                <ul class="icons">
+                    <li><a href="mailto:youremail@example.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                    <li><a href="https://github.com/yourusername" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/yourlinkedin" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                </ul>
+            </article>
         </div>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself, your skills, and your professional experience. Share your passion for your work and what drives you.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you would like to get in touch, feel free to reach out via <a href="mailto:youremail@example.com">email</a>.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Portfolio. Built with love and passion. <a href="#">Back to top</a></p>
-    </footer>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
-
-
